@@ -1,13 +1,14 @@
 #include <turnkey/base>
 
 lighttpd
-
-php5-gd
+php5-fpm
 php5-cli
-php5-cgi
 php5-curl
+curl
 php5-mysql
-php5-xcache
+php-apc
+php5-mcrypt
+
 webmin-phpini
 
 mysql-server
@@ -17,4 +18,6 @@ phpmyadmin
 postfix
 webmin-postfix
 
+git
+subversion
 
